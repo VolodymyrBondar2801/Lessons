@@ -1,0 +1,27 @@
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(90deg,rgba(35, 64, 92, 0.79) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);;
+    -webkit-box-shadow: 5px 14px 15px 5px #000000;
+    box-shadow: 5px 14px 15px 5px #000000;
+    border-radius: 50%;
+    border: 3px solid rgba(232, 5, 58, 0.79);
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item:hover{
+    border-radius: 0;
+    border: 3px dotted rgba(250, 248, 248, 0.79);
+    transition: 3s;
+    width: 400px;
+    height: 400px;
+    transform: scale(1.5);
+}
