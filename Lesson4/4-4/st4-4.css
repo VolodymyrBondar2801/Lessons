@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+header{
+    height: 22vh;
+    background-color: lightgrey;
+}
+main{
+    height: 54vh;
+    background-color: grey;
+}
+footer{
+    height: 22vh;
+    background-color: lightgrey;
+}

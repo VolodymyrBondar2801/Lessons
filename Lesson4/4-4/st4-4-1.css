@@ -1,0 +1,17 @@
+aside{
+    height: 56vh;
+    width: 27vw;
+    background-color: lightgrey;
+}
+header, footer{
+    height: 22vh;
+    background-color: grey;
+}
+section{
+    height: 56vh;
+    width: 46vw;
+    background-color: lightgreen;
+}
+main{
+    display: flex;
+}
