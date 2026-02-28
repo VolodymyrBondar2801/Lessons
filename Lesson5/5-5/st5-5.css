@@ -1,31 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=DM+Sans:opsz,wght@9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #1E1E1E;
 }
-.w-1340{
+
+.w-1340 {
     width: 1340px;
     margin: 0 auto;
 }
-nav{
+
+nav {
     margin-top: 36px;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
 
 }
-ul{
+
+ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style-type: none;
     gap: 59px;
 }
-ul a{
+
+ul a {
     color: #E9E3DC;
     font-family: "Bowlby One", sans-serif;
     font-size: 18px;
@@ -35,8 +41,9 @@ ul a{
     text-transform: uppercase;
     text-decoration: none;
 }
-.nav__menu_active-link{
-    display:flex;
+
+.nav__menu_active-link {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 203px;
@@ -44,8 +51,9 @@ ul a{
     color: black;
     background: #B3A0CD;
 }
-.header-title{
-    width:1255px;
+
+.header-title {
+    width: 1255px;
     color: #E9E3DC;
     text-align: center;
     font-family: "Bowlby One", sans-serif;
@@ -57,7 +65,128 @@ ul a{
     text-transform: uppercase;
     margin: 72px auto 33px auto;
 }
-.header-img{
-    display:block;
+
+.header-img {
+    display: block;
     margin: 0 auto;
 }
+
+.middle-title {
+    display: flex;
+    width: 533px;
+    color: #1E1E1E;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88.896%; /* 62.228px */
+    letter-spacing: -1.4px;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93vw;
+    height: 369px;
+    border-radius: 30px;
+    border: 4px solid #1E1E1E;
+    background: #D1EF53;
+    margin: 32px 50px 64px 50px;
+}
+
+.section_menu_active-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 176px;
+    height: 60px;
+    border: 4px solid #1E1E1E;
+    background: #E9E3DC;
+    /* DropShadow */
+    box-shadow: 8px 8px 0 0 #000;
+}
+
+button a {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+p {
+    width: 521px;
+    height: 75px;
+    color: #1E1E1E;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.896%; /* 33.575px */
+    letter-spacing: -0.48px;
+}
+
+.bottom_img {
+    width: 45vw;
+    height: 753px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 64px 50px 64px 50px;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+}
+
+aside img {
+    width: 94vw;
+    height: 503px;
+}
+
+h3 {
+    display: flex;
+    width: 895px;
+    color: #E9E3DC;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.896%; /* 71.328px */
+    text-transform: uppercase;
+    margin: 64px auto 33px auto;
+}
+
+.bottom__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 196px;
+    height: 60px;
+    background-color: #D1EF53;
+    margin-bottom: 36px;
+}
+
+.ul__button a {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+}
+
