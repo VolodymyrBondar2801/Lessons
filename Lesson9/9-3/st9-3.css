@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+.wrapp img{
+    width: 250px;
+}
+.wrapp{
+    display:grid;
+    height: 100vh;
+    background-color: gray;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(2,300px);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+

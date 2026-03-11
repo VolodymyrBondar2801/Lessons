@@ -1,0 +1,18 @@
+.grid_container{
+    display: grid;
+    height: 400px;
+    background-color: violet;
+    border: 3px solid black;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,100px);
+    justify-content: center;
+    align-content: center;
+}
+.item-gr{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3F50E7;
+    text-align: center;
+    border: 2px solid;
+}

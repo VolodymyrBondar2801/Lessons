@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+.grid{
+    height:100vh;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-areas:
+    "header header header"
+    "one main two"
+    "footer footer footer";
+}
+header{
+    grid-area: header;
+    background-color: lightgrey;
+}
+.one{
+    grid-area: one;
+    background-color: green;
+}
+.two{
+    grid-area: two;
+    background-color: green;
+}
+main{
+    grid-area: main;
+    background-color: gray;
+}
+footer{
+    grid-area: footer;
+    background-color: lightgrey;
+}
